@@ -1,0 +1,6 @@
+1. asks for height
+2. if input is not correct (ex. negative), ask again
+3. print using for loop
+    - start by printing one
+    - add one more to the row below
+    - end the loop after on inputed number
