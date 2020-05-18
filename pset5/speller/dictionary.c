@@ -167,11 +167,16 @@ bool unload(void)
     // Free memory by checking every bucket in hash table
     for (int i = 0; i < N; i++)
     {
+        // Run cursor through table
+        node *cursor = table[i];
+
         // Check every next and cleans the node
-        for (node *cursor = table[i]; cursor != NULL; cursor = cursor->next)
+        while (cursor != NULL)
         {
             node *tmp = cursor;
+            cursor = cursor->next;
             free(tmp);
+
         }
     }
     return true;
