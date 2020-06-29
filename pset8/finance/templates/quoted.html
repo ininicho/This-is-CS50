@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quoted
+{% endblock %}
+
+{% block main %}
+    <row>
+        <p>A share of {{ stock_name}} ({{ stock_symbol }}) costs {{ stock_price }}.</p>
+    </row>
+    <row>
+        <button class="btn btn-primary" type=submit onclick="location.href='/buy'">BUY</button>
+        <button class="btn btn-primary" type=submit onclick="location.href='/sell'">SELL</button>
+    </row>
+{% endblock %}

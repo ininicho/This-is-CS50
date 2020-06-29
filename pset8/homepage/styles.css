@@ -1,0 +1,41 @@
+#html, #body {
+  height: 100%;
+  width:100%;
+  margin: 0;
+  float: left;
+}
+
+.jumbotron{
+    column-fill: auto;
+    background-color: #f8f8ff;
+}
+
+.side{
+    color: white;
+    background-color: black;
+}
+
+.main_part{
+    color: black;
+    background-color: white;
+}
+
+.heading{
+    font-family: 'Lato', sans-serif;
+    text-align: left;
+}
+
+.para{
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+}
+
+small{
+    color: gray;
+}
+
+.table{
+    width: 100%;
+    background-color:white;
+    color:black;
+}
